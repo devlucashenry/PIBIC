@@ -1,19 +1,3 @@
-/*******************************************************************************
-* Sensor de Fluxo D'Agua: Primeiros Passos (v1.0)
-* 
-* Codigo para medir o fluxo (em L/min) e o volume atraves do numero de pulsos
-* dados pelo sensor.
-* 
-* Copyright 2020 RoboCore.
-* Escrito por Giovanni de Castro (11/12/2019).
-* Creditos: Arvind Sanjeev - DIYhacking
-* 
-* This program is free software: you can redistribute it and/or modify
-* it under the terms of the GNU General Public License as published by
-* the Free Software Foundation, either version 3 of the License, or
-* (at your option) any later version (<https://www.gnu.org/licenses/>).
-*******************************************************************************/
-
 //definicao do pino do sensor e de interrupcao
 const int INTERRUPCAO_SENSOR = 0; //interrupt = 0 equivale ao pino digital 2
 const int PINO_SENSOR = 2;
